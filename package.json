@@ -1,0 +1,17 @@
+{
+  "name": "06-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test_print": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon server.js -e js,hbs,html,css",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  }
+}
